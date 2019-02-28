@@ -5,7 +5,7 @@ using namespace std;
 class Pracownik{
 private:
     string imie_nazwisko; // Podzial na private i public ulatwia kontrole nad danymi i zabezpiecza przed pomylkami
-    long ident_prac;
+    long ident_prac;    //zmienilem tablice char na string poniewaz jest on duzo latwiejszy w uzyciu i dynamicznie zarzadza pamiecia 
     float pensja;
 public:
     Pracownik(string i,long id,float p){ //konstruktor zeby program sie nie wysypal nawet jak wpiszemy czasem zle dane
