@@ -58,7 +58,7 @@ bool Pracownik::zmien_pensje(float nowa_pensja) { // zmieniony typ na bool zajmu
     return true;
     }
     else
-    return false; // gdy cos pojdzie nie tak pojzdie do else w main i zwroci informacje niepoprawne zarobki
+    return false; // gdy cos pojdzie nie tak przenosi do else w main i zwroci informacje niepoprawne zarobki
     }
 long Pracownik::podaj_id(void) {
     return (ident_prac);
