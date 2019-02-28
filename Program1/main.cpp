@@ -29,7 +29,7 @@ int main(void)
     n.inf_o_prac();
 }
 
-void Pracownik::dodaj_prac(void){ //Dodawanie nowego pracownika najprostszy schemat
+void Pracownik::dodaj_prac(void){ //Dodawanie nowego pracownika najprostszy schemat; Deklaracja metod na zewnatrz klasy zwieksza czytelnosc kodu
     cout <<endl << "Dodawanie nowego pracownika: "<< endl <<" -----------------------------------------"<<endl;
     cout << "Podaj imie i nazwisko pracownika: ";
     getline(cin,imie_nazwisko); // getline zeby zapobiec wywalaniu programu gdy podamy Imie i oddzielimy spacja
