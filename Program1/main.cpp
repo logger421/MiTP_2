@@ -9,11 +9,11 @@ private:
     float pensja;
 public:
     Pracownik(string i,long id,float p){ //konstruktor zeby program sie nie wysypal nawet jak wpiszemy czasem zle dane
-        imie_nazwisko=i; // uzyskujemy dzieki temu dostem do skladowych private
+        imie_nazwisko=i; // uzyskujemy dzieki temu dostep do skladowych private
         ident_prac=id;
         pensja=p;
     }
-    void dodaj_prac(void);//dwie metody
+    void dodaj_prac(void); //dwie metody
     void inf_o_prac(void);
 };
 int main(void)
