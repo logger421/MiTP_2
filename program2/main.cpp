@@ -4,7 +4,7 @@ using namespace std;
 
 class Psy
 {
-private:
+private: // składowa prywatna zabezpiecza przed niekontrolowana zmiana danych
     string rasa;
     int srednia_waga;
     int srednia_wysokosc;
@@ -39,7 +39,7 @@ void Psy::dodaj_psa(){
     cout<<endl<<"DODAWANIE NOWEGO PSA DO BAZY: "<<endl;
     cout<<"----------------------"<<endl;
     cout<<"Podaj rase: ";
-    getline(cin,rasa);
+    getline(cin,rasa); // getline umozliwia wpisywanie dwuczlonowych ras psow bez wysypywania sie programu
     cout<<"Podaj srednia wage: ";
     cin >> srednia_waga;
     cout<<"Podaj srednia wysokosc: ";
